@@ -1,7 +1,7 @@
 package main
 
 import (
-	"httpServerTemplate/cmd/routes"
+	"apiServerTemplate/cmd/routes"
 	"log"
 	"net/http"
 )

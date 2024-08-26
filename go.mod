@@ -1,3 +1,3 @@
-module httpServerTemplate
+module apiServerTemplate
 
 go 1.23

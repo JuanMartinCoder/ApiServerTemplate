@@ -1,8 +1,8 @@
 package routes
 
 import (
-	C "httpServerTemplate/cmd/controllers"
-	"httpServerTemplate/utils"
+	C "apiServerTemplate/cmd/controllers"
+	"apiServerTemplate/utils"
 	"net/http"
 )
 

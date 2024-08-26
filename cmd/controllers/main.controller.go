@@ -1,9 +1,9 @@
 package controllers
 
 import (
+	"apiServerTemplate/utils"
 	"encoding/json"
 	"fmt"
-	"httpServerTemplate/utils"
 	"io"
 	"net/http"
 )
