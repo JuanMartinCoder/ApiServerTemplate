@@ -1,4 +1,4 @@
-package mainDomain
+package controllers
 
 import (
 	"fmt"

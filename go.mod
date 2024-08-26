@@ -1,3 +1,3 @@
-module simpleWebAppGo
+module httpServerTemplate
 
 go 1.23

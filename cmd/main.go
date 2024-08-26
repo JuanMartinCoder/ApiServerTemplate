@@ -2,17 +2,12 @@ package main
 
 import (
 	"fmt"
+	"httpServerTemplate/cmd/routes"
 	"net/http"
-	"simpleWebAppGo/cmd/routes"
-	"simpleWebAppGo/cmd/routes/mainRoute"
 )
 
-func InitRoutes() {
-	mainRoute.MainRender()
-}
-
 func main() {
-	InitRoutes()
+	routes.RenderRoutes()
 
 	http.ListenAndServe(":8080", routes.GetMuxInstance())
 
