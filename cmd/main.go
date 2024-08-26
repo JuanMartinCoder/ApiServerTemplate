@@ -1,15 +1,15 @@
 package main
 
 import (
-	"fmt"
 	"httpServerTemplate/cmd/routes"
+	"log"
 	"net/http"
 )
 
 func main() {
 	routes.RenderRoutes()
-
-	http.ListenAndServe(":8080", routes.GetMuxInstance())
-
-	fmt.Println("Hello World")
+	err := http.ListenAndServe(":8080", routes.GetMuxInstance())
+	if err != nil {
+		log.Fatal(err)
+	}
 }
